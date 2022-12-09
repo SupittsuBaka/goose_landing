@@ -1,0 +1,105 @@
+body {
+    font-family:Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body section, header {
+    padding: 0 10% 0;
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-links a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+/*-header-*/
+
+figure {
+    justify-content:space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0.5em 0 0.5em;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.advantages-icon {
+    width: 66px;
+    height: 66px;
+    margin: 0 10px 0;
+}
+
+.advantages-caption {
+    max-width: 310px;
+}
+
+.main-p{
+    font-size: 23px;
+}
+
+.flex-row,
+.flex-column {
+    display: flex;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+#main-section {
+    background-color: rgb(173, 213, 242);
+}
+
+#charity-h {
+    font-size: 27px;
+}
+
+#main-section-p {
+    max-width: 500px;
+}
+
+#advantages-image {
+    background-color: rgb(173, 213, 242);
+    border-radius: 10px;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 227, 84);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: rgb(255, 227, 84);
+}
+
+/*-scrollbar-*/

@@ -4,92 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
     <title>Document</title>
 </head>
 <body>
     <header>
         <img src="images/logo.png" alt="logo">
-        <a href="#">Переваги</a>
-        <a href="#">Про товар</a>
-        <a href="#">Відгуки</a>
+        <div class="info-links">
+            <a href="#">Переваги</a>
+            <a href="#">Про товар</a>
+            <a href="#">Відгуки</a>
+        </div>
     </header>
-    <section>
-        <article>
-            <p><strong>Благодійний мерч</strong></p>
-            <article>
+    <section id="main-section">
+        <figure class="flex-row">
+            <figcaption>
+                <strong id="charity-h">Благодійний мерч</strong>
                 <h1>Бандерогусь -<br>ніколи не здаюсь</h1>
-                <p>
-                    Інвестуй у нашу перемогу, зроби приємне собі<br>
-                    та долучись до боротьби з ворогом, щоб наша<br>
+                <p class="main-p" id="main-section-p">
+                    Інвестуй у нашу перемогу, зроби приємне собі
+                    та долучись до боротьби з ворогом, щоб наша
                     перемога була швидкою як цей Бандерогусь
                 </p>
-            </article>
-        </article>
-        <figure>
+            </figcaption>
             <img src="images/t-shirt.png" alt="t-shirt picture">
         </figure>
     </section>
     <section>
-        <article>
+        <article class="flex-column">
             <h2>Наш курс на перемогу</h2>
-            <p>Трішки статистики з наближення нашої перемоги</p>
-            <article>
-                <p><strong>2348</strong></p>
-                <p>Крутих бандероклієнтів</p>
-            </article>
-            <article>
-                <p><strong>60 000&dollar;</strong></p>
-                <p>Задонатили на ЗСУ</p>
-            </article>
-            <article>
-                <p><strong>868&plus;</strong></p>
-                <p>Шкарпеток на бійцях</p>
-            </article>
+            <p class="main-p">Трішки статистики з наближення нашої перемоги</p>
+            <div class="flex-row">   
+                <article class="sub-article">
+                    <p><strong>2348</strong></p>
+                    <p>Крутих бандероклієнтів</p>
+                </article>
+                <article class="sub-article">
+                    <p><strong>60 000&dollar;</strong></p>
+                    <p>Задонатили на ЗСУ</p>
+                </article>
+                <article class="sub-article"    >
+                    <p><strong>868&plus;</strong></p>
+                    <p>Шкарпеток на бійцях</p>
+                </article>
+            </div>
         </article>
     </section>
     <section>
-        <figure>
-            <img src="images/Group 2146.png" alt="picture of socks">
+        <figure class="flex-row">
+            <img id="advantages-image" src="images/Group 2146.png" alt="picture of socks">
+            <figcaption>
+                <h2 class="section-title">Переваги</h2>
+                <figure class="flex-row">
+                    <img class="advantages-icon" src="images/01.png" alt="cotton">
+                    <figcaption class="advantages-caption">
+                        <strong>100&percnt; бавовна</strong><br>
+                        Тобі буде спекотно у прохолодну погоду.
+                        Оркам теж буде спекотно, але є нюанс.
+                    </figcaption>
+                </figure>
+                <figure class="flex-row">
+                    <img class="advantages-icon" src="images/02.png" alt="stickers">
+                    <figcaption class="advantages-caption">
+                        <strong>Наліпки з бандерогусем</strong><br>
+                        З такою наліпкою ти завжди будеш свій
+                        серед пересічних бандерівців.
+                    </figcaption>
+                </figure>
+                <figure class="flex-row">
+                    <img class="advantages-icon" src="images/03.png" alt="rocket">
+                    <figcaption class="advantages-caption">
+                        <strong>Доставка на космічній швидкості</strong><br>
+                        Ваше замовлення приїде до вас навіть
+                        шаидше, ніж Himars летить до окупантів.
+                    </figcaption>
+                </figure>
+                <figure class="flex-row">
+                    <img class="advantages-icon" src="images/04.png" alt="emblem">
+                    <figcaption class="advantages-caption">
+                        <strong>Наліпки з бандерогусем</strong><br>
+                        З такою наліпкою ти завжди будеш свій
+                        серед пересічних бандерівців.
+                    </figcaption>
+                </figure>
+            </figcaption>
         </figure>
-        <article>
-            <h2>Переваги</h2>
-            <figure>
-                <img src="images/01.png" alt="cotton">
-                <figcaption>
-                    <strong>100&percnt; бавовна</strong><br>
-                    Тобі буде спекотно у прохолодну погоду.<br>
-                    Оркам теж буде спекотно, але є нюанс.
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="images/02.png" alt="stickers">
-                <figcaption>
-                    <strong>Наліпки з бандерогусем</strong><br>
-                    З такою наліпкою ти завжди будеш свій<br>
-                    серед пересічних бандерівців.
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="images/03.png" alt="rocket">
-                <figcaption>
-                    <strong>Доставка на космічній швидкості</strong><br>
-                    Ваше замовлення приїде до вас навіть<br>
-                    шаидше, ніж Himars летить до окупантів.
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="images/04.png" alt="emblem">
-                <figcaption>
-                    <strong>Наліпки з бандерогусем</strong><br>
-                    З такою наліпкою ти завжди будеш свій<br>
-                    серед пересічних бандерівців.
-                </figcaption>
-            </figure>
-        </article>
     </section>
     <section>
-        <h2>Про бренд</h2>
-        <figure>
+        <h2 class="section-title">Про бренд</h2>
+        <figure class="flex-row">
             <img src="images/flag.png" alt="flag">
             <figcaption>
                 <strong>20&percnt; на ЗСУ</strong><br>
@@ -102,7 +105,7 @@
         </figure>
     </section>
     <section>
-        <figure>
+        <figure class="flex-row">
             <figcaption>
                 <strong>Стиль переможців</strong><br>
                 Бандерогусь допоможе тобі завжди<br>
