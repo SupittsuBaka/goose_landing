@@ -1,0 +1,224 @@
+body *{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(23,22,28);
+}
+
+.header-content {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 50px; 
+}
+
+.navbar-item>*{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-content,
+.s-content {
+    margin: auto;
+    max-width: 1170px;
+}
+
+.first-section {
+    background-color: rgb(173,213,242);
+}
+
+#charity-merch {
+    display: flex;
+    align-items: center;
+}
+
+.charity-p1,
+.charity-p2,
+.charity-p3 {
+    margin: 12px 0;
+}
+
+.charity-p1 {
+    font-size: 24px;
+}
+
+.charity-p2 {
+    font-size: 48px;
+}
+
+.charity-p3 {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 516px;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.stats-p1 {
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.stats-p2 {
+    font-size: 20px;
+}
+
+.stats-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+
+.stats-item {
+    text-align: center;
+}
+
+.stats-item-p1 strong {
+    font-size: 48px;
+    color: rgb(255,107,10);
+    margin: 0;
+    line-height: 69px;
+}
+
+.stats-item-p2 {
+    font-size: 16px;
+}
+
+#advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 125px;
+}
+
+.socks {
+    flex: 0 1 573px;
+    background-color: rgb(173,213,242);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-info {
+}
+
+.advantages-p {
+    font-size: 32px;
+    margin: 0 0 44px;
+}
+
+.advantages-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.advantages-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.advantages-item-img-container {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.advantages-item-img {
+    max-width: 64px;
+    max-height: auto;
+}
+
+.advantages-item-text {
+    max-width: 346px;
+    max-height: fit-content;
+}
+
+.advantages-item-text>p {
+    margin: 0;
+    padding: 0;
+}
+
+#about {
+    margin-top: 84px;
+}
+
+.about-brand-p {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 414px;
+    border-radius: 24px;
+}
+
+.about-container>* {
+    margin-top: -70px;
+}
+
+.about-charity {
+    margin-top: 72px;
+    padding-left: 100px;
+    padding-right: 55px;
+    background-color: rgb(236,224,161);
+}
+
+.about-charity-img-container {
+    display: flex;
+    background-image: radial-gradient(circle, rgba(178,214,235,1)25%, rgba(255,255,255,0)50%);
+}
+
+.about-article {
+    max-width: 344px;
+}
+
+.about-article-p1 {
+    font-size: 32px;
+}
+
+.about-style {
+    margin-top: 80px;
+    padding-left: 76px;
+    padding-right: 36px;
+    background-color: rgb(173,213,242);
+}
+
+.about-style-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 520px;
+    background-image: radial-gradient(480px 300px at center, rgb(236,224,161)15%, transparent 50%);
+}
+
+.about-style-img {
+    max-width: 436px;
+    min-height: 471px;
+}
